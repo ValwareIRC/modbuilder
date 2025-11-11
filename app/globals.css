@@ -1,3 +1,6 @@
+@import "tailwindcss/index.css";
+
+/* Custom styles */
 :root {
   --background: #ffffff;
   --foreground: #171717;

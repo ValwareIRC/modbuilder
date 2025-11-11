@@ -1,13 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# UnrealIRCd Module Builder
+
+A drag-and-drop no-code builder for creating third-party modules for UnrealIRCd using TypeScript and Node.js.
+
+## Features
+
+- Visual drag-and-drop interface using React Flow
+- Generate C code for UnrealIRCd modules
+- Support for commands, hooks, capabilities, and module metadata
 
 ## Getting Started
 
-First, run the development server:
+First, install dependencies:
+
+```bash
+npm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
+```
+
+Open [http://localhost:3001](http://localhost:3001) in your browser.
+
+## Usage
+
+1. Add nodes by clicking the buttons: Module Info, Command, Hook, Capability.
+2. Edit the properties in each node.
+3. Connect nodes if needed (for future logic flow).
+4. Click "Generate Module" to download the C code.
+
+## Project Structure
+
+- `components/ModuleBuilder.tsx`: Main React component with React Flow
+- `app/api/generate/route.ts`: API endpoint to generate C code
+- Based on examples from `/home/valerie/ubeValware/src/modules/third/`
+
+## Contributing
+
+Feel free to add more node types, improve the UI, or enhance the code generation.
 # or
 pnpm dev
 # or
