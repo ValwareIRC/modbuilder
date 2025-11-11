@@ -2,11 +2,17 @@
 
 A drag-and-drop no-code builder for creating third-party modules for UnrealIRCd using TypeScript and Node.js.
 
+## License
+
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
+
 ## Features
 
 - Visual drag-and-drop interface using React Flow
 - Generate C code for UnrealIRCd modules
 - Support for commands, hooks, capabilities, and module metadata
+- Local storage persistence
+- Comprehensive node types including logging, RPC endpoints, ISUPPORT tokens, and user modes
 
 ## Getting Started
 
@@ -40,6 +46,10 @@ Open [http://localhost:3001](http://localhost:3001) in your browser.
 ## Contributing
 
 Feel free to add more node types, improve the UI, or enhance the code generation.
+
+## Repository
+
+https://github.com/ValwareIRC/modbuilder
 # or
 pnpm dev
 # or
