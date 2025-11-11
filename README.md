@@ -2,6 +2,12 @@
 
 A drag-and-drop no-code builder for creating third-party modules for UnrealIRCd using TypeScript and Node.js.
 
+## Screenshots
+<img width="500" alt="Screenshot 2025-11-11 at 10-05-38 Create Next App" src="https://github.com/user-attachments/assets/596e5ef2-7517-4e8f-9707-6487607a1945" />
+<img width="500" alt="Screenshot 2025-11-11 at 10-06-03 Create Next App" src="https://github.com/user-attachments/assets/d777e385-9d04-4f83-81da-f7f80f2b419e" />
+
+
+
 ## License
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
